@@ -1,0 +1,831 @@
+{
+  "format": 1,
+  "branch": "source-build-2153",
+  "shader_count": 206,
+  "files": [
+    {
+      "path": "/hl2/shaders/fxc/IntroScreenSpaceEffect_ps20.vcs",
+      "bytes": 4832
+    },
+    {
+      "path": "/hl2/shaders/fxc/ParticleSphere_ps11.vcs",
+      "bytes": 300
+    },
+    {
+      "path": "/hl2/shaders/fxc/ParticleSphere_vs11.vcs",
+      "bytes": 2064
+    },
+    {
+      "path": "/hl2/shaders/fxc/Refract_ps20.vcs",
+      "bytes": 15852
+    },
+    {
+      "path": "/hl2/shaders/fxc/Refract_vs20.vcs",
+      "bytes": 9136
+    },
+    {
+      "path": "/hl2/shaders/fxc/ShatteredGlass_ps20.vcs",
+      "bytes": 15652
+    },
+    {
+      "path": "/hl2/shaders/fxc/ShatteredGlass_vs20.vcs",
+      "bytes": 4012
+    },
+    {
+      "path": "/hl2/shaders/fxc/VertexLit_and_unlit_Generic_vs20.vcs",
+      "bytes": 3106708
+    },
+    {
+      "path": "/hl2/shaders/fxc/WaterCheap_ps20.vcs",
+      "bytes": 6604
+    },
+    {
+      "path": "/hl2/shaders/fxc/WaterCheap_vs20.vcs",
+      "bytes": 1440
+    },
+    {
+      "path": "/hl2/shaders/fxc/Water_ps20.vcs",
+      "bytes": 5208
+    },
+    {
+      "path": "/hl2/shaders/fxc/Water_vs20.vcs",
+      "bytes": 816
+    },
+    {
+      "path": "/hl2/shaders/fxc/WorldTwoTextureBlend_ps20.vcs",
+      "bytes": 171984
+    },
+    {
+      "path": "/hl2/shaders/fxc/WorldVertexTransition_ps20.vcs",
+      "bytes": 968
+    },
+    {
+      "path": "/hl2/shaders/fxc/WorldVertexTransition_vs20.vcs",
+      "bytes": 1572
+    },
+    {
+      "path": "/hl2/shaders/fxc/debugbumpmappedlightmap_ps11.vcs",
+      "bytes": 1152
+    },
+    {
+      "path": "/hl2/shaders/fxc/debugbumpmappedlightmap_ps20.vcs",
+      "bytes": 1400
+    },
+    {
+      "path": "/hl2/shaders/fxc/debugdrawdepth_ps20.vcs",
+      "bytes": 308
+    },
+    {
+      "path": "/hl2/shaders/fxc/debugdrawdepth_vs20.vcs",
+      "bytes": 2568
+    },
+    {
+      "path": "/hl2/shaders/fxc/debugdrawenvmapmask_ps20.vcs",
+      "bytes": 536
+    },
+    {
+      "path": "/hl2/shaders/fxc/debugdrawenvmapmask_vs20.vcs",
+      "bytes": 2376
+    },
+    {
+      "path": "/hl2/shaders/fxc/eyes_flashlight_ps11.vcs",
+      "bytes": 436
+    },
+    {
+      "path": "/hl2/shaders/fxc/flashlight_ps11.vcs",
+      "bytes": 832
+    },
+    {
+      "path": "/hl2/shaders/fxc/flashlight_ps20.vcs",
+      "bytes": 3960
+    },
+    {
+      "path": "/hl2/shaders/fxc/hsv_ps20.vcs",
+      "bytes": 304
+    },
+    {
+      "path": "/hl2/shaders/fxc/introscreenspaceeffect_ps11.vcs",
+      "bytes": 3860
+    },
+    {
+      "path": "/hl2/shaders/fxc/lightmappedgeneric_flashlight_vs11.vcs",
+      "bytes": 5372
+    },
+    {
+      "path": "/hl2/shaders/fxc/lightmappedgeneric_flashlight_vs20.vcs",
+      "bytes": 11012
+    },
+    {
+      "path": "/hl2/shaders/fxc/lightmappedgeneric_ps20.vcs",
+      "bytes": 6930764
+    },
+    {
+      "path": "/hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+      "bytes": 88692
+    },
+    {
+      "path": "/hl2/shaders/fxc/screenspaceeffect_vs11.vcs",
+      "bytes": 200
+    },
+    {
+      "path": "/hl2/shaders/fxc/screenspaceeffect_vs20.vcs",
+      "bytes": 188
+    },
+    {
+      "path": "/hl2/shaders/fxc/shadow_ps20.vcs",
+      "bytes": 1312
+    },
+    {
+      "path": "/hl2/shaders/fxc/shadow_vs20.vcs",
+      "bytes": 1492
+    },
+    {
+      "path": "/hl2/shaders/fxc/vertexlit_and_unlit_generic_bump_ps20.vcs",
+      "bytes": 3989956
+    },
+    {
+      "path": "/hl2/shaders/fxc/vertexlit_and_unlit_generic_bump_vs20.vcs",
+      "bytes": 495028
+    },
+    {
+      "path": "/hl2/shaders/fxc/vertexlit_and_unlit_generic_ps20.vcs",
+      "bytes": 1712684
+    },
+    {
+      "path": "/hl2/shaders/fxc/vertexlit_lighting_only_ps20.vcs",
+      "bytes": 171156
+    },
+    {
+      "path": "/hl2/shaders/fxc/windowimposter_ps11.vcs",
+      "bytes": 244
+    },
+    {
+      "path": "/hl2/shaders/fxc/windowimposter_vs11.vcs",
+      "bytes": 1168
+    },
+    {
+      "path": "/hl2/shaders/fxc/writelightmapalphatodestalpha_ps11.vcs",
+      "bytes": 236
+    },
+    {
+      "path": "/hl2/shaders/fxc/writelightmapalphatodestalpha_vs11.vcs",
+      "bytes": 280
+    },
+    {
+      "path": "/hl2/shaders/psh/BumpmappedEnvmap.vcs",
+      "bytes": 108
+    },
+    {
+      "path": "/hl2/shaders/psh/BumpmappedLightmap_OverBright2.vcs",
+      "bytes": 172
+    },
+    {
+      "path": "/hl2/shaders/psh/Cable.vcs",
+      "bytes": 132
+    },
+    {
+      "path": "/hl2/shaders/psh/Eyes.vcs",
+      "bytes": 112
+    },
+    {
+      "path": "/hl2/shaders/psh/Eyes_Overbright2.vcs",
+      "bytes": 124
+    },
+    {
+      "path": "/hl2/shaders/psh/JellyFish.vcs",
+      "bytes": 68
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric.vcs",
+      "bytes": 100
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_AddBaseAlphaMaskedEnvMap.vcs",
+      "bytes": 100
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_AddEnvMapMaskNoTexture.vcs",
+      "bytes": 100
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_AddEnvMapNoTexture.vcs",
+      "bytes": 76
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_BaseAlphaMaskedEnvMapV2.vcs",
+      "bytes": 152
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_BaseTexture.vcs",
+      "bytes": 56
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_BumpmappedEnvmap.vcs",
+      "bytes": 544
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_BumpmappedEnvmap_ps14.vcs",
+      "bytes": 852
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_BumpmappedLightmap.vcs",
+      "bytes": 220
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_BumpmappedLightmap_Base_ps14.vcs",
+      "bytes": 232
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_BumpmappedLightmap_Blend_ps14.vcs",
+      "bytes": 268
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_Detail.vcs",
+      "bytes": 124
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_DetailNoTexture.vcs",
+      "bytes": 112
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_DetailSelfIlluminated.vcs",
+      "bytes": 172
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_EnvMapNoTexture.vcs",
+      "bytes": 132
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_EnvMapV2.vcs",
+      "bytes": 128
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_LightingOnly_Overbright2.vcs",
+      "bytes": 56
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_MaskedEnvMapNoTexture.vcs",
+      "bytes": 156
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_MaskedEnvMapV2.vcs",
+      "bytes": 152
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_MultiplyByLighting.vcs",
+      "bytes": 128
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_MultiplyByLightingNoTexture.vcs",
+      "bytes": 124
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_MultiplyByLightingSelfIllum.vcs",
+      "bytes": 156
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_NoTexture.vcs",
+      "bytes": 88
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_SelfIlluminated.vcs",
+      "bytes": 148
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_SelfIlluminatedEnvMapV2.vcs",
+      "bytes": 176
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedGeneric_SelfIlluminatedMaskedEnvMapV2.vcs",
+      "bytes": 200
+    },
+    {
+      "path": "/hl2/shaders/psh/LightmappedTranslucentTexture.vcs",
+      "bytes": 96
+    },
+    {
+      "path": "/hl2/shaders/psh/Modulate_ps11.vcs",
+      "bytes": 80
+    },
+    {
+      "path": "/hl2/shaders/psh/MonitorScreen.vcs",
+      "bytes": 356
+    },
+    {
+      "path": "/hl2/shaders/psh/Refract_ps11.vcs",
+      "bytes": 340
+    },
+    {
+      "path": "/hl2/shaders/psh/Shadow.vcs",
+      "bytes": 104
+    },
+    {
+      "path": "/hl2/shaders/psh/ShadowBuildTexture.vcs",
+      "bytes": 96
+    },
+    {
+      "path": "/hl2/shaders/psh/ShadowModel.vcs",
+      "bytes": 124
+    },
+    {
+      "path": "/hl2/shaders/psh/ShatteredGlass.vcs",
+      "bytes": 168
+    },
+    {
+      "path": "/hl2/shaders/psh/ShatteredGlass_EnvMap.vcs",
+      "bytes": 212
+    },
+    {
+      "path": "/hl2/shaders/psh/SpriteRenderNormal.vcs",
+      "bytes": 56
+    },
+    {
+      "path": "/hl2/shaders/psh/SpriteRenderTransAdd.vcs",
+      "bytes": 60
+    },
+    {
+      "path": "/hl2/shaders/psh/SpriteRenderTransColor.vcs",
+      "bytes": 60
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_BaseAlphaMaskedEnvMap.vcs",
+      "bytes": 128
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_Detail.vcs",
+      "bytes": 84
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_DetailBaseAlphaMaskedEnvMap.vcs",
+      "bytes": 148
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_DetailEnvMap.vcs",
+      "bytes": 112
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_DetailEnvMapMask.vcs",
+      "bytes": 148
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_DetailEnvMapMaskNoTexture.vcs",
+      "bytes": 124
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_DetailEnvMapNoTexture.vcs",
+      "bytes": 100
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_DetailNoTexture.vcs",
+      "bytes": 72
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_EnvMap.vcs",
+      "bytes": 104
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_EnvMapMask.vcs",
+      "bytes": 128
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_EnvMapMaskNoTexture.vcs",
+      "bytes": 100
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_EnvMapNoTexture.vcs",
+      "bytes": 76
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitGeneric_NoTexture.vcs",
+      "bytes": 48
+    },
+    {
+      "path": "/hl2/shaders/psh/UnlitTwoTexture.vcs",
+      "bytes": 84
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric.vcs",
+      "bytes": 92
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_BaseAlphaMaskedEnvMapV2.vcs",
+      "bytes": 144
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_Detail.vcs",
+      "bytes": 116
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_DetailBaseAlphaMaskedEnvMapV2.vcs",
+      "bytes": 168
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_DetailEnvMapV2.vcs",
+      "bytes": 144
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_DetailMaskedEnvMapV2.vcs",
+      "bytes": 168
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_DetailNoTexture.vcs",
+      "bytes": 92
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_DetailSelfIlluminated.vcs",
+      "bytes": 164
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_DetailSelfIlluminatedEnvMapV2.vcs",
+      "bytes": 192
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_DetailSelfIlluminatedMaskedEnvMapV2.vcs",
+      "bytes": 220
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_EnvMapNoTexture.vcs",
+      "bytes": 104
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_EnvMapV2.vcs",
+      "bytes": 120
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_EnvmappedBumpmapV2.vcs",
+      "bytes": 180
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha.vcs",
+      "bytes": 196
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha_ps14.vcs",
+      "bytes": 356
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_EnvmappedBumpmapV2_ps14.vcs",
+      "bytes": 340
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_MaskedEnvMapNoTexture.vcs",
+      "bytes": 132
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_MaskedEnvMapV2.vcs",
+      "bytes": 144
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_NoTexture.vcs",
+      "bytes": 68
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_SelfIllumOnly.vcs",
+      "bytes": 60
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_SelfIlluminated.vcs",
+      "bytes": 140
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_SelfIlluminatedEnvMapV2.vcs",
+      "bytes": 168
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitGeneric_SelfIlluminatedMaskedEnvMapV2.vcs",
+      "bytes": 196
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitTexture.vcs",
+      "bytes": 60
+    },
+    {
+      "path": "/hl2/shaders/psh/VertexLitTexture_Overbright2.vcs",
+      "bytes": 76
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterCheapFresnelOpaque_ps14.vcs",
+      "bytes": 340
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterCheapFresnel_ps14.vcs",
+      "bytes": 348
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterCheapNoFresnelOpaque_ps11.vcs",
+      "bytes": 116
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterCheapNoFresnel_ps11.vcs",
+      "bytes": 124
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterCheapOpaque_ps11.vcs",
+      "bytes": 180
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterCheapOpaque_ps14.vcs",
+      "bytes": 264
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterCheap_ps11.vcs",
+      "bytes": 188
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterCheap_ps14.vcs",
+      "bytes": 272
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterReflect_ps11.vcs",
+      "bytes": 152
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterRefractFresnel_ps11.vcs",
+      "bytes": 168
+    },
+    {
+      "path": "/hl2/shaders/psh/WaterRefract_ps11.vcs",
+      "bytes": 72
+    },
+    {
+      "path": "/hl2/shaders/psh/Water_ps14.vcs",
+      "bytes": 780
+    },
+    {
+      "path": "/hl2/shaders/psh/WorldTexture.vcs",
+      "bytes": 56
+    },
+    {
+      "path": "/hl2/shaders/psh/WorldTwoTextureBlend.vcs",
+      "bytes": 156
+    },
+    {
+      "path": "/hl2/shaders/psh/WorldTwoTextureBlend_DetailAlpha.vcs",
+      "bytes": 196
+    },
+    {
+      "path": "/hl2/shaders/psh/WorldTwoTextureBlend_SelfIlluminated.vcs",
+      "bytes": 204
+    },
+    {
+      "path": "/hl2/shaders/psh/WorldVertexAlpha.vcs",
+      "bytes": 96
+    },
+    {
+      "path": "/hl2/shaders/psh/WorldVertexTransition.vcs",
+      "bytes": 252
+    },
+    {
+      "path": "/hl2/shaders/psh/WorldVertexTransition_BlendBase2.vcs",
+      "bytes": 96
+    },
+    {
+      "path": "/hl2/shaders/psh/alienscale_overbright2_ps11.vcs",
+      "bytes": 252
+    },
+    {
+      "path": "/hl2/shaders/psh/alienscale_overbright2_ps14.vcs",
+      "bytes": 340
+    },
+    {
+      "path": "/hl2/shaders/psh/alienscale_ps11.vcs",
+      "bytes": 236
+    },
+    {
+      "path": "/hl2/shaders/psh/alienscale_ps14.vcs",
+      "bytes": 324
+    },
+    {
+      "path": "/hl2/shaders/psh/fillrate.vcs",
+      "bytes": 48
+    },
+    {
+      "path": "/hl2/shaders/psh/lightmappedgeneric_basetextureblend.vcs",
+      "bytes": 92
+    },
+    {
+      "path": "/hl2/shaders/psh/overlay_fit_ps11.vcs",
+      "bytes": 116
+    },
+    {
+      "path": "/hl2/shaders/psh/predator.vcs",
+      "bytes": 60
+    },
+    {
+      "path": "/hl2/shaders/psh/shadow_ps14.vcs",
+      "bytes": 276
+    },
+    {
+      "path": "/hl2/shaders/psh/unlitgeneric.vcs",
+      "bytes": 60
+    },
+    {
+      "path": "/hl2/shaders/psh/vertexlitgeneric_lightingonly_overbright2.vcs",
+      "bytes": 48
+    },
+    {
+      "path": "/hl2/shaders/psh/white.vcs",
+      "bytes": 72
+    },
+    {
+      "path": "/hl2/shaders/psh/yuv.vcs",
+      "bytes": 108
+    },
+    {
+      "path": "/hl2/shaders/vsh/BumpmappedEnvmap.vcs",
+      "bytes": 1056
+    },
+    {
+      "path": "/hl2/shaders/vsh/BumpmappedLightmap.vcs",
+      "bytes": 624
+    },
+    {
+      "path": "/hl2/shaders/vsh/Cable.vcs",
+      "bytes": 1112
+    },
+    {
+      "path": "/hl2/shaders/vsh/DebugTangentSpace.vcs",
+      "bytes": 3004
+    },
+    {
+      "path": "/hl2/shaders/vsh/Eyes.vcs",
+      "bytes": 409332
+    },
+    {
+      "path": "/hl2/shaders/vsh/JellyFish.vcs",
+      "bytes": 5644
+    },
+    {
+      "path": "/hl2/shaders/vsh/Jojirium.vcs",
+      "bytes": 1056
+    },
+    {
+      "path": "/hl2/shaders/vsh/LightingOnly.vcs",
+      "bytes": 348788
+    },
+    {
+      "path": "/hl2/shaders/vsh/LightmappedGeneric_BaseTexture.vcs",
+      "bytes": 512
+    },
+    {
+      "path": "/hl2/shaders/vsh/LightmappedGeneric_BaseTextureBlend.vcs",
+      "bytes": 624
+    },
+    {
+      "path": "/hl2/shaders/vsh/LightmappedGeneric_BumpmappedEnvmap.vcs",
+      "bytes": 1280
+    },
+    {
+      "path": "/hl2/shaders/vsh/LightmappedGeneric_BumpmappedEnvmap_ps14.vcs",
+      "bytes": 1232
+    },
+    {
+      "path": "/hl2/shaders/vsh/LightmappedGeneric_BumpmappedLightmap.vcs",
+      "bytes": 728
+    },
+    {
+      "path": "/hl2/shaders/vsh/LightmappedGeneric_BumpmappedLightmap_Base_ps14.vcs",
+      "bytes": 792
+    },
+    {
+      "path": "/hl2/shaders/vsh/LightmappedGeneric_BumpmappedLightmap_Blend_ps14.vcs",
+      "bytes": 856
+    },
+    {
+      "path": "/hl2/shaders/vsh/LightmappedGeneric_LightingOnly.vcs",
+      "bytes": 456
+    },
+    {
+      "path": "/hl2/shaders/vsh/Refract_model_vs11.vcs",
+      "bytes": 6252
+    },
+    {
+      "path": "/hl2/shaders/vsh/Refract_world_vs11.vcs",
+      "bytes": 1848
+    },
+    {
+      "path": "/hl2/shaders/vsh/ScreenSpaceEffect.vcs",
+      "bytes": 172
+    },
+    {
+      "path": "/hl2/shaders/vsh/ShadowModel.vcs",
+      "bytes": 5132
+    },
+    {
+      "path": "/hl2/shaders/vsh/ShatteredGlass.vcs",
+      "bytes": 672
+    },
+    {
+      "path": "/hl2/shaders/vsh/ShatteredGlass_EnvMap.vcs",
+      "bytes": 1008
+    },
+    {
+      "path": "/hl2/shaders/vsh/ShatteredGlass_EnvMapSphere.vcs",
+      "bytes": 1264
+    },
+    {
+      "path": "/hl2/shaders/vsh/Teeth.vcs",
+      "bytes": 351348
+    },
+    {
+      "path": "/hl2/shaders/vsh/UnlitGeneric_LightingOnly.vcs",
+      "bytes": 2332
+    },
+    {
+      "path": "/hl2/shaders/vsh/UnlitGeneric_vs11.vcs",
+      "bytes": 80788
+    },
+    {
+      "path": "/hl2/shaders/vsh/UnlitTwoTexture.vcs",
+      "bytes": 3756
+    },
+    {
+      "path": "/hl2/shaders/vsh/VertexLitGeneric_EnvmappedBumpmap_NoLighting.vcs",
+      "bytes": 6060
+    },
+    {
+      "path": "/hl2/shaders/vsh/VertexLitGeneric_EnvmappedBumpmap_NoLighting_ps14.vcs",
+      "bytes": 5868
+    },
+    {
+      "path": "/hl2/shaders/vsh/VertexLitGeneric_SelfIllumOnly.vcs",
+      "bytes": 3404
+    },
+    {
+      "path": "/hl2/shaders/vsh/VertexLitGeneric_vs11.vcs",
+      "bytes": 3935156
+    },
+    {
+      "path": "/hl2/shaders/vsh/WaterCheapPerVertexFresnel_vs11.vcs",
+      "bytes": 1408
+    },
+    {
+      "path": "/hl2/shaders/vsh/WaterCheap_vs11.vcs",
+      "bytes": 1200
+    },
+    {
+      "path": "/hl2/shaders/vsh/WaterCheap_vs14.vcs",
+      "bytes": 1272
+    },
+    {
+      "path": "/hl2/shaders/vsh/Water_ps14.vcs",
+      "bytes": 1088
+    },
+    {
+      "path": "/hl2/shaders/vsh/Water_vs11.vcs",
+      "bytes": 1152
+    },
+    {
+      "path": "/hl2/shaders/vsh/WorldVertexAlpha.vcs",
+      "bytes": 536
+    },
+    {
+      "path": "/hl2/shaders/vsh/WorldVertexTransition.vcs",
+      "bytes": 704
+    },
+    {
+      "path": "/hl2/shaders/vsh/WorldVertexTransition_Micros.vcs",
+      "bytes": 688
+    },
+    {
+      "path": "/hl2/shaders/vsh/alienscale_vs11.vcs",
+      "bytes": 454388
+    },
+    {
+      "path": "/hl2/shaders/vsh/alienscale_vs14.vcs",
+      "bytes": 489588
+    },
+    {
+      "path": "/hl2/shaders/vsh/eyes_flashlight_vs11.vcs",
+      "bytes": 6892
+    },
+    {
+      "path": "/hl2/shaders/vsh/fillrate.vcs",
+      "bytes": 2236
+    },
+    {
+      "path": "/hl2/shaders/vsh/lightmappedgeneric_vs11.vcs",
+      "bytes": 16276
+    },
+    {
+      "path": "/hl2/shaders/vsh/overlay_fit_vs11.vcs",
+      "bytes": 632
+    },
+    {
+      "path": "/hl2/shaders/vsh/predator.vcs",
+      "bytes": 4588
+    },
+    {
+      "path": "/hl2/shaders/vsh/shadow_vs14.vcs",
+      "bytes": 712
+    },
+    {
+      "path": "/hl2/shaders/vsh/vertexlitgeneric_flashlight_vs11.vcs",
+      "bytes": 6396
+    },
+    {
+      "path": "/hl2/shaders/vsh/writez.vcs",
+      "bytes": 228
+    }
+  ]
+}
